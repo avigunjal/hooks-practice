@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Glory&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Glory, sans-serif;
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding: 0 3rem;
+}
+
+.u-center {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: green;
+  font-weight: 600;
+  border: 1px solid #808080;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+form {
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.4rem 0.7rem;
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.25);
+}
+
+section {
+  font-size: 3rem;
+  padding: 1rem;
+  display: inline-block;
+  box-shadow: 0 1rem 1rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+strong {
+  color: darkolivegreen;
+  letter-spacing: 0.2rem;
+}
